@@ -6,11 +6,17 @@
 
     <groupId>se.lexicon.jennie</groupId>
     <artifactId>Exercises-OOP</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ex1Car</module>
+        <module>ex2Rectangle</module>
+        <module>ex3BookAuthor</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    
+
 </project>
